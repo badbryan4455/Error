@@ -1,0 +1,35 @@
+Dec 21 16:20:00 HP-laptop kernel: Adding 9437036k swap on /dev/sda2.  Priority:-2 extents:1 across:9437036k SSFS
+Dec 21 16:20:00 HP-laptop systemd[1]: Starting Load Kernel Modules...
+Dec 21 16:20:00 HP-laptop systemd[1]: Condition check resulted in Repartition Root Disk being skipped.
+Dec 21 16:20:00 HP-laptop systemd[1]: Activated swap /dev/disk/by-uuid/e28b0a31-1a40-45ec-b1f5-ca394bf547b6.
+Dec 21 16:20:00 HP-laptop systemd[1]: Finished Load/Save Screen Backlight Brightness of backlight:intel_backlight.
+Dec 21 16:20:00 HP-laptop audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-b>
+Dec 21 16:20:00 HP-laptop kernel: audit: type=1130 audit(1608547800.817:19): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unc>
+Dec 21 16:20:00 HP-laptop systemd[1]: Reached target Swap.
+Dec 21 16:20:00 HP-laptop systemd[1]: Mounting /tmp...
+Dec 21 16:20:00 HP-laptop systemd[1]: Mounted /tmp.
+Dec 21 16:20:00 HP-laptop systemd-fsck[750]: fsck.fat 4.1 (2017-01-24)
+Dec 21 16:20:00 HP-laptop systemd-fsck[750]: /dev/sda1: 11 files, 83/130810 clusters
+Dec 21 16:20:00 HP-laptop systemd[1]: Finished File System Check on /dev/disk/by-uuid/1A59-9D0C.
+Dec 21 16:20:00 HP-laptop audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-f>
+Dec 21 16:20:00 HP-laptop kernel: audit: type=1130 audit(1608547800.881:20): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unc>
+Dec 21 16:20:00 HP-laptop systemd[1]: Mounting /boot/efi...
+Dec 21 16:20:00 HP-laptop systemd-modules-load[746]: Failed to insert module 'vboxdrv': Exec format error
+Dec 21 16:20:00 HP-laptop kernel: vboxdrv: disagrees about version of symbol module_layout
+Dec 21 16:20:00 HP-laptop systemd-modules-load[746]: Failed to insert module 'vboxnetadp': Exec format error
+Dec 21 16:20:00 HP-laptop kernel: vboxdrv: disagrees about version of symbol module_layout
+Dec 21 16:20:00 HP-laptop systemd[1]: Mounted /boot/efi.
+Dec 21 16:20:00 HP-laptop systemd[1]: Reached target Local File Systems.
+Dec 21 16:20:00 HP-laptop systemd[1]: Starting Rebuild Dynamic Linker Cache...
+Dec 21 16:20:00 HP-laptop systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Dec 21 16:20:00 HP-laptop systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Dec 21 16:20:00 HP-laptop systemd[1]: Starting Create Volatile Files and Directories...
+Dec 21 16:20:00 HP-laptop systemd-modules-load[746]: Failed to insert module 'vboxnetflt': Exec format error
+Dec 21 16:20:00 HP-laptop systemd[1]: systemd-modules-load.service: Main process exited, code=exited, status=1/FAILURE
+Dec 21 16:20:00 HP-laptop systemd[1]: systemd-modules-load.service: Failed with result 'exit-code'.
+Dec 21 16:20:00 HP-laptop systemd[1]: Failed to start Load Kernel Modules.
+Dec 21 16:20:00 HP-laptop kernel: vboxdrv: disagrees about version of symbol module_layout
+Dec 21 16:20:00 HP-laptop kernel: audit: type=1130 audit(1608547800.964:21): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unc>
+Dec 21 16:20:00 HP-laptop audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-m>
+Dec 21 16:20:00 HP-laptop systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Dec 21 16:20:00 HP-laptop systemd[1]: Finished Create Volatile Files and Directories.
